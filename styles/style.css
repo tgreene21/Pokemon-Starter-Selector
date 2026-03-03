@@ -7,3 +7,33 @@ img{
     display: block;
     margin: auto;
 }
+
+#Fire {
+    background-color: red;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#Water {
+    background-color: aqua;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#Grass {
+    background-color: green;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}

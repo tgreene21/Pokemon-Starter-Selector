@@ -8,45 +8,18 @@
 </head>
 <body>
     <?php 
-        $generation = rand(1, 10);
-        $starter = "";
-        $type = "Fire";
-        
-        switch ($generation) {
-            case 1:
-                $starter = "Charmander";
-                break;       
-            case 2:
-                $starter = "Cyndaquil";
-                break;       
-            case 3:
-                $starter = "Torchic";
-                break;       
-            case 4:
-                $starter = "Chimchar";
-                break;       
-            case 5:
-                $starter = "Tepig";
-                break;       
-            case 6:
-                $starter = "Fennekin";
-                break;       
-            case 7:
-                $starter = "Litten";
-                break;       
-            case 8:
-                $starter = "Scorbunny";
-                break;       
-            case 9:
-                $starter = "Fuecoco";
-                break;       
-            case 10:
-                $starter = "Pombon";
-                break;       
-        }
+       $type = "Fire";
+       include "selection.php";
     ?>
 
     <h1>Your starter is: <?php echo $starter;?> </h1>
     <img src="./images/<?php echo $starter; ?>.png" />
+    <button type="button"><a href = "grass.php"> Grass 🍃</a></button>
+    <button type="button"><a href = "fire.php"> Choose Another 🔥</a></button>
+    <button type="button"><a href = "water.php"> Water 💦</a></button>
 </body>
+
+<footer id="<?php echo $type; ?>">
+    <p>Enjoy your starter!</p>
+</footer>
 </html>
