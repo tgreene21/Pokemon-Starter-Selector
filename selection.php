@@ -116,3 +116,21 @@
     }
 
 ?>
+
+<div id = "header" class = "<?php echo $type; ?>">
+    <h1>Your starter is: <?php echo $starter;?> </h1>
+</div>
+
+<div id = "center">
+    <img src="./images/<?php echo $starter; ?>.png" />
+    <h2>Choose another starter?</h2>
+    <div class = "buttons">
+        <button type="button"><a href = "grass.php"> Grass 🍃</a></button>
+        <button type="button"><a href = "fire.php"> Fire 🔥</a></button>
+        <button type="button"><a href = "water.php"> Water 💦</a></button>
+    </div>
+</div>
+
+<div id = "footer" class = "<?php echo $type; ?>">
+    <h2>Enjoy your: <?php echo $starter;?>! </h2>
+</div>

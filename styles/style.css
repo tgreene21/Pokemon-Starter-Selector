@@ -3,37 +3,61 @@ h1{
 }
 
 img{
-    width: 400px;
+    width: 300px;
     display: block;
     margin: auto;
 }
 
-#Fire {
+.Fire {
     background-color: red;
     position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
     color: white;
 }
 
-#Water {
+.Water {
     background-color: aqua;
     position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
     color: white;
 }
 
-#Grass {
+.Grass {
     background-color: green;
     position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
     color: white;
+}
+
+#footer{
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+}
+
+#header{
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+
+#center{
+  
+  position: fixed;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  border: 5px solid;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -8,8 +8,10 @@
 </head>
 <body>
     <h1>Choose your Starter!</h1>
-    <button type="button"><a href = "grass.php"> Grass 🍃</a></button>
-    <button type="button"><a href = "fire.php"> Fire 🔥</a></button>
-    <button type="button"><a href = "water.php"> Water 💦</a></button>
+    <div class = "buttons">
+        <button type="button"><a href = "grass.php"> Grass 🍃</a></button>
+        <button type="button"><a href = "fire.php"> Fire 🔥</a></button>
+        <button type="button"><a href = "water.php"> Water 💦</a></button>
+    <div class = "buttons">
 </body>
 </html>

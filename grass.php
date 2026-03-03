@@ -11,13 +11,5 @@
        $type = "Grass";
        include "selection.php";
     ?>
-
-    <h1>Your starter is: <?php echo $starter;?> </h1>
-    <img src="./images/<?php echo $starter; ?>.png" />
 </body>
-
-<footer id="<?php echo $type; ?>">
-    <p>Enjoy your starter!</p>
-</footer>
-
 </html>
